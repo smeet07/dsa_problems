@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>date methods</h2>
+    <h3>getMonth()</h3>
+    <p id="demo"></p>
+    <h3>getDate()</h3>
+    <p id="demo1"></p>
+    <h3>getHours()</h3>
+    <p id="demo2"></p>
+</body>
+<script>
+    const date = new Date();
+    document.getElementById("demo").innerHTML = date.getMonth() + 1;
+    document.getElementById("demo1").innerHTML = date.getDate();
+    document.getElementById("demo2").innerHTML = date.getHours();
+    </script>
+</html>
+
