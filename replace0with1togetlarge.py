@@ -1,7 +1,7 @@
 def replace(a):
     count=0
-    prev_index=-1
     max_length=0
+    prev_index=-1
     index=-1
     for i in range(len(a)):
         if a[i]==1:
@@ -10,9 +10,9 @@ def replace(a):
             count=i-prev_index
             prev_index=i
         if count>max_length:
-            index=prev_index
             max_length=count
-    return (index,max_length)
+            index=prev_index
+    return index,max_length
 
 
 
